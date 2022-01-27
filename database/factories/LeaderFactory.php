@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(Leader::class, function (Faker $faker) {
     return [
         'name' => $faker -> name(),
-        'surname' => $faker -> surname(),
+        'surname' => $faker -> name(),
         'azienda' => $faker -> word()
     ];
 });
